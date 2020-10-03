@@ -6,7 +6,6 @@ import EmailIcon from "@material-ui/icons/Email";
 import AssignmentIcon from "@material-ui/icons/Assignment";
 import { makeStyles } from "@material-ui/core/styles";
 import Tooltip from "@material-ui/core/Tooltip";
-import { Linking } from "react";
 const useStyles = makeStyles((theme) => ({
   contactIcon: {
     fontSize: 80,
