@@ -28,14 +28,14 @@ function App() {
           <h3>Fullstack Developer</h3>
           <ul className="contactInfo">
             <Tooltip title="LinkedIn" hover="pointer">
-              {/* <a href="https://www.linkedin.com/in/ryan-lugtu/" target="_blank">
+              <a href="https://www.linkedin.com/in/ryan-lugtu/" target="_blank">
                 <LinkedInIcon className={classes.contactIcon}></LinkedInIcon>
               </a>
             </Tooltip>
             <Tooltip title="GitHub">
               <a href="https://github.com/rlugtu" target="_blank">
                 <GitHubIcon className={classes.contactIcon}></GitHubIcon>
-              </a> */}
+              </a>
             </Tooltip>
             <Tooltip title="Email">
               <a href="mailto:ryanlugtu@gmail.com?subject=">
@@ -67,7 +67,7 @@ function App() {
             <i className="devicon-html5-plain-wordmark devicon"></i>
             <i className="devicon-css3-plain-wordmark devicon"></i>
             <i className="devicon-javascript-plain devicon"></i>
-            <i class="devicon-nodejs-plain-wordmark devicon"></i>
+            <i className="devicon-nodejs-plain-wordmark devicon"></i>
             <i className="devicon-react-original-wordmark devicon"></i>
             <i className="devicon-express-original-wordmark devicon"></i>
             <i className="devicon-ruby-plain-wordmark devicon"></i>
