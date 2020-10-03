@@ -1,7 +1,23 @@
 import React from "react";
 import "./App.css";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import EmailIcon from "@material-ui/icons/Email";
+import AssignmentIcon from "@material-ui/icons/Assignment";
+import { makeStyles } from "@material-ui/core/styles";
+
+const useStyles = makeStyles((theme) => ({
+  contactIcon: {
+    fontSize: 80,
+    [theme.breakpoints.down("xs")]: {
+      fontSize: 60,
+    },
+  },
+}));
 
 function App() {
+  const classes = useStyles();
+
   return (
     <div className="App">
       <div className="headerContainer">
@@ -9,11 +25,11 @@ function App() {
           <h1 className="name type-animation">Ryan Lugtu.</h1>
           <h3> Software Engineer</h3>
           <h3>Fullstack Developer</h3>
-          <ul>
-            <li>LinkedIn</li>
-            <li>Github</li>
-            <li>Resume</li>
-            <li>Mail</li>
+          <ul className="contactInfo">
+            <LinkedInIcon className={classes.contactIcon}></LinkedInIcon>
+            <GitHubIcon className={classes.contactIcon}></GitHubIcon>
+            <EmailIcon className={classes.contactIcon}></EmailIcon>
+            <AssignmentIcon className={classes.contactIcon}></AssignmentIcon>
           </ul>
         </div>
       </div>
