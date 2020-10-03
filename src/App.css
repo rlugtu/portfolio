@@ -61,32 +61,14 @@ body {
 .projectsContent {
   color: white;
 }
-h1 {
+h2 {
   margin: 0;
 }
-/* 
-.type-animation2 {
-  border-right: 2px solid white;
-  width: 20px;
-  white-space: nowrap;
-  overflow: hidden;
-  transform: translateY(-50%);
-} */
 
 .type-animation {
   animation: typewriter 1.5s steps(20) 1s 1 normal both,
     blinkTextCursor 1000ms steps(20) 5 normal;
 }
-/* .type-animation2 {
-  animation: typewriter 1.5s steps(20) 1s 1 normal both,
-    blinkTextCursor 1000ms steps(20) 5 normal;
-  animation-delay: 2.5s;
-}
-.type-animation3 {
-  animation: typewriter 1.5s steps(20) 1s 1 normal both,
-    blinkTextCursor 1000ms steps(20) 5 normal;
-  animation-delay: 4s;
-} */
 
 @keyframes typewriter {
   from {
