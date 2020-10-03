@@ -46,7 +46,7 @@ body {
   font-size: 6rem;
 }
 .sqlIcon {
-  height: auto;
+  height: 90px;
   width: 90px;
 }
 
@@ -128,7 +128,7 @@ h2 {
     font-size: 4rem;
   }
   .sqlIcon {
-    height: auto;
+    height: 60px;
     width: 60px;
   }
 }
