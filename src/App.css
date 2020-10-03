@@ -1,38 +1,106 @@
+#root {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(136, 136, 136, 1);
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+/* Header Font */
+.name {
+  font-size: 5rem;
+  margin: 0;
+  border-right: 2px solid white;
+  width: 450px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.headerContent h3 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.headerContainer,
+.aboutContainer,
+.projectContainer {
+  width: 100vw;
+}
+
+.headerContainer {
+  background-color: rgba(34, 34, 34, 1);
+  color: white;
+  padding-top: 100px;
+}
+.headerContent,
+.aboutContent,
+.projectsContent {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.aboutContainer {
+  background-color: white;
+}
+
+.contentTitles {
+  font-size: 2.5rem;
+}
+
+.projectsContent {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+h1 {
+  margin: 0;
 }
+/* 
+.type-animation2 {
+  border-right: 2px solid white;
+  width: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+} */
 
-@keyframes App-logo-spin {
+.type-animation {
+  animation: typewriter 1.5s steps(20) 1s 1 normal both,
+    blinkTextCursor 1000ms steps(20) 5 normal;
+}
+/* .type-animation2 {
+  animation: typewriter 1.5s steps(20) 1s 1 normal both,
+    blinkTextCursor 1000ms steps(20) 5 normal;
+  animation-delay: 2.5s;
+}
+.type-animation3 {
+  animation: typewriter 1.5s steps(20) 1s 1 normal both,
+    blinkTextCursor 1000ms steps(20) 5 normal;
+  animation-delay: 4s;
+} */
+
+@keyframes typewriter {
   from {
-    transform: rotate(0deg);
+    width: 0;
   }
   to {
-    transform: rotate(360deg);
+    width: 450px;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: solid white;
+  }
+  to {
+    border-right-color: transparent;
   }
 }
