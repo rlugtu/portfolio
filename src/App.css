@@ -4,6 +4,9 @@
   padding: 0;
   margin: 0;
 }
+a {
+  color: white;
+}
 body {
   height: 100%;
   width: 100%;
@@ -22,15 +25,29 @@ body {
 }
 /* Header Font */
 .name {
-  font-size: 7rem;
+  font-size: 6rem;
   margin: 0;
   border-right: 2px solid white;
   white-space: nowrap;
   overflow: hidden;
+  max-width: 530px;
 }
 .headerContent h3 {
   font-size: 2rem;
   margin: 0;
+}
+
+/* TECH STACK  */
+.techStackIcons {
+  display: flex;
+  flex-wrap: wrap;
+}
+.devicon {
+  font-size: 6rem;
+}
+.sqlIcon {
+  height: auto;
+  width: 90px;
 }
 
 .headerContainer,
@@ -41,15 +58,17 @@ body {
 
 .headerContainer {
   background-color: rgba(34, 34, 34, 1);
+  background-image: url("https://culture.basicagency.com/assets/images/dark-noise-background.jpg");
   color: white;
   padding-top: 100px;
 }
 .headerContent,
 .aboutContent,
 .projectsContent {
-  max-width: 1200px;
+  max-width: 900px;
   margin: auto;
   padding: 20px;
+  font-size: 1.4rem;
 }
 
 .aboutContainer {
@@ -89,12 +108,27 @@ h2 {
   }
 }
 
-@media (max-width: 450px) {
+.bio {
+  font-size: 1.5rem;
+}
+@media (max-width: 600px) {
   .name {
-    font-size: 3.5rem;
-    max-width: 300px;
+    font-size: 4.5rem;
+    max-width: 400px;
   }
   .headerContent h3 {
     font-size: 1.5rem;
+  }
+  .headerContent,
+  .aboutContent,
+  .projectsContent {
+    font-size: 1rem;
+  }
+  .devicon {
+    font-size: 5rem;
+  }
+  .sqlIcon {
+    height: auto;
+    width: 75px;
   }
 }
