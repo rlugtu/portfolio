@@ -31,7 +31,6 @@ body {
 .name {
   font-size: 6rem;
   margin: 0;
-  border-right: 2px solid white;
   white-space: nowrap;
   overflow: hidden;
   max-width: 530px;
@@ -109,6 +108,7 @@ h2 {
   width: 300px;
   height: 200px;
   border: 2px solid black;
+  border-radius: 5px;
   transition: transform 0.5s ease;
 }
 .projectThumbnail:hover {
@@ -143,7 +143,7 @@ h2 {
 }
 .type-animation {
   animation: typewriter 1.2s steps(20) 1s 1 normal both,
-    blinkTextCursor 1000ms steps(20) 5 normal;
+    blinkTextCursor 1000ms steps(20) 6 normal;
 }
 
 @keyframes typewriter {
@@ -156,10 +156,10 @@ h2 {
 }
 @keyframes blinkTextCursor {
   from {
-    border-right-color: solid white;
+    border-right: 2px solid white;
   }
   to {
-    border-right-color: transparent;
+    border-right: transparent;
   }
 }
 
