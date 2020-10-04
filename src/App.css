@@ -10,7 +10,7 @@ a {
 body {
   height: 100%;
   width: 100%;
-  background-color: rgba(136, 136, 136, 1);
+  background-color: white;
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   background-image: url("https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80");
@@ -42,9 +42,12 @@ body {
 }
 
 /* TECH STACK  */
-.techStackIcons {
+.techStackContainer {
   display: flex;
   flex-wrap: wrap;
+}
+.techStackContainer > * {
+  margin: 10px 0;
 }
 .devicon {
   font-size: 6rem;
@@ -82,7 +85,7 @@ body {
   margin-top: 50px;
 }
 .techStackContainer {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .contentTitles {
   font-size: 2.5rem;
