@@ -88,10 +88,78 @@ function App() {
       <div className="projectContainer">
         <div className="projectsContent">
           <h2 className="contentTitles">Projects</h2>
-          <p>
-            HTML, CSS, Javacript, Node.js, React.js, Express, Ruby, SQL,
-            PostgreSQL, Material UI
-          </p>
+          <div className="welp">
+            <img
+              className="projectThumbnail"
+              src="https://i.imgur.com/6DF9uRU.png"
+            />
+            <div className="projectDescription">
+              <h3>Welp</h3>
+
+              <p>
+                Welp is a business directory app that allows users to find,
+                bookmark, and review different businesses. Businesses will be
+                accessed through the yelp fusion api.
+              </p>
+              <div className="projectLinks">
+                <a href="https://welpme.herokuapp.com" target="_blank">
+                  Live Demo
+                </a>
+                <a href="https://github.com/rlugtu/welp" target="_blank">
+                  GitHub source
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="fitpal">
+            <img
+              className="projectThumbnail"
+              src="https://i.imgur.com/X90E6wN.png"
+            />
+            <div className="projectDescription">
+              <h3>FitPal</h3>
+              <p>
+                Fitpal is a fitness planning app that allows users to plan and
+                schedule workouts
+              </p>
+              <div className="projectLinks">
+                <a href="https://fitpaltracker.herokuapp.com" target="_blank">
+                  Live Demo
+                </a>
+                <a href="https://github.com/rlugtu/fitpals" target="_blank">
+                  GitHub source
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="finalfantasy">
+            <img
+              className="projectThumbnail"
+              src="https://i.imgur.com/8If8U7o.png"
+            />
+            <div className="projectDescription">
+              <h3>Final Fantasy Adventure</h3>
+
+              <p>
+                Final Fantasy Adventure is a turn based adventure RPG that
+                allows users to fight monsters until the final boss is beaten.
+              </p>
+              <div className="projectLinks">
+                <a
+                  href="https://vigorous-goldstine-7f8852.netlify.app/"
+                  target="_blank"
+                >
+                  Live Demo
+                </a>
+                <a
+                  href="https://github.com/rlugtu/final-fantasy-adventure"
+                  target="_blank"
+                >
+                  GitHub source
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

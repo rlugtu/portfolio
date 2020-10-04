@@ -90,14 +90,55 @@ body {
 .contentTitles {
   font-size: 2.5rem;
 }
-
-/* .projectsContent {
-  color: white;
-} */
 h2 {
   margin: 0;
 }
 
+/* .projectsContent {
+  color: white;
+} */
+
+.welp,
+.fitpal,
+.finalfantasy {
+  display: flex;
+}
+
+.projectThumbnail {
+  margin-top: 20px;
+  width: 300px;
+  height: 200px;
+  border: 2px solid black;
+}
+.projectThumbnail:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
+.projectDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+.projectDescription h3 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.projectDescription p {
+  margin: 0;
+}
+.projectLinks {
+  display: flex;
+  flex-direction: column;
+}
+.projectLinks a {
+  color: black;
+  text-decoration: none;
+}
+.projectLinks a:hover {
+  color: black;
+  text-decoration: underline;
+}
 .type-animation {
   animation: typewriter 1.2s steps(20) 1s 1 normal both,
     blinkTextCursor 1000ms steps(20) 5 normal;
@@ -147,5 +188,16 @@ h2 {
   .sqlIcon {
     height: 60px;
     width: 60px;
+  }
+
+  .welp,
+  .fitpal,
+  .finalfantasy {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .projectThumbnail {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
