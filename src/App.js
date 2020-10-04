@@ -6,6 +6,7 @@ import EmailIcon from "@material-ui/icons/Email";
 import AssignmentIcon from "@material-ui/icons/Assignment";
 import { makeStyles } from "@material-ui/core/styles";
 import Tooltip from "@material-ui/core/Tooltip";
+import Resume from "./assets/resume.pdf";
 const useStyles = makeStyles((theme) => ({
   contactIcon: {
     fontSize: 80,
@@ -48,7 +49,7 @@ function App() {
             </Tooltip>
 
             <Tooltip title="Resume">
-              <a href="https://docs.google.com/document/d/16prWJuMTSzA_7kVckPTDM32bTE-VQgfha9ZSSIgRmYw/edit?usp=sharing">
+              <a href={Resume} target="_blank">
                 <AssignmentIcon
                   className={classes.contactIcon}
                 ></AssignmentIcon>
