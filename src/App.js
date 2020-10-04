@@ -48,7 +48,11 @@ function App() {
             </Tooltip>
 
             <Tooltip title="Resume">
-              <AssignmentIcon className={classes.contactIcon}></AssignmentIcon>
+              <a href="https://docs.google.com/document/d/16prWJuMTSzA_7kVckPTDM32bTE-VQgfha9ZSSIgRmYw/edit?usp=sharing">
+                <AssignmentIcon
+                  className={classes.contactIcon}
+                ></AssignmentIcon>
+              </a>
             </Tooltip>
           </ul>
         </div>
