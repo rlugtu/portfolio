@@ -109,6 +109,7 @@ function App() {
                 bookmark, and review different businesses. Businesses will be
                 accessed through the yelp fusion api.
               </p>
+              <p>Created with React, Ruby on Rails, SQL, PostgreSQL</p>
               <div className="projectLinks">
                 <a href="https://welpme.herokuapp.com" target="_blank">
                   Live Demo
@@ -131,8 +132,9 @@ function App() {
               <h3>FitPal</h3>
               <p>
                 Fitpal is a fitness planning app that allows users to plan and
-                schedule workouts
+                schedule workouts.
               </p>
+              <p> Created with EJS, Express, SQL, PostgreSQL</p>
               <div className="projectLinks">
                 <a href="https://fitpaltracker.herokuapp.com" target="_blank">
                   Live Demo
@@ -161,6 +163,7 @@ function App() {
                 Final Fantasy Adventure is a turn based adventure RPG that
                 allows users to fight monsters until the final boss is beaten.
               </p>
+              <p>Created with Vanilla Javascript, HTML, CSS </p>
               <div className="projectLinks">
                 <a
                   href="https://vigorous-goldstine-7f8852.netlify.app/"
