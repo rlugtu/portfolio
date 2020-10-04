@@ -120,6 +120,7 @@ h2 {
   flex-direction: column;
   justify-content: space-between;
   margin-left: 10px;
+  padding-bottom: 10px;
 }
 .projectDescription h3 {
   margin-top: 20px;
@@ -133,7 +134,7 @@ h2 {
   flex-direction: column;
 }
 .projectLinks a {
-  color: black;
+  color: rgb(60, 60, 60);
   text-decoration: none;
 }
 .projectLinks a:hover {
@@ -197,8 +198,15 @@ h2 {
     display: flex;
     flex-wrap: wrap;
   }
-  .projectThumbnail {
+  .welp a,
+  .fitpal a,
+  .finalfantasy a {
     margin-left: auto;
     margin-right: auto;
+  }
+  .projectLinks {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
   }
 }

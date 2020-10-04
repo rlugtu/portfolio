@@ -93,10 +93,13 @@ function App() {
         <div className="projectsContent">
           <h2 className="contentTitles">Projects</h2>
           <div className="welp">
-            <img
-              className="projectThumbnail"
-              src="https://i.imgur.com/6DF9uRU.png"
-            />
+            <a href="https://welpme.herokuapp.com" target="_blank">
+              <img
+                className="projectThumbnail"
+                src="https://i.imgur.com/6DF9uRU.png"
+              />
+            </a>
+
             <div className="projectDescription">
               <h3>Welp</h3>
 
@@ -116,10 +119,13 @@ function App() {
             </div>
           </div>
           <div className="fitpal">
-            <img
-              className="projectThumbnail"
-              src="https://i.imgur.com/X90E6wN.png"
-            />
+            <a href="https://fitpaltracker.herokuapp.com" target="_blank">
+              <img
+                className="projectThumbnail"
+                src="https://i.imgur.com/X90E6wN.png"
+              />
+            </a>
+
             <div className="projectDescription">
               <h3>FitPal</h3>
               <p>
@@ -137,10 +143,16 @@ function App() {
             </div>
           </div>
           <div className="finalfantasy">
-            <img
-              className="projectThumbnail"
-              src="https://i.imgur.com/8If8U7o.png"
-            />
+            <a
+              href="https://vigorous-goldstine-7f8852.netlify.app/"
+              target="_blank"
+            >
+              <img
+                className="projectThumbnail"
+                src="https://i.imgur.com/8If8U7o.png"
+              />
+            </a>
+
             <div className="projectDescription">
               <h3>Final Fantasy Adventure</h3>
 
