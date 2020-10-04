@@ -13,6 +13,10 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("xs")]: {
       fontSize: 60,
     },
+    "&:hover": {
+      border: "1px solid white",
+      borderRadius: 5,
+    },
   },
 }));
 
@@ -61,21 +65,23 @@ function App() {
             I'm driven to improve at what I do. When I'm not at my computer, you
             can find me working out, working on my car, or playing tennis.
           </p>
-          <h2 className="contentTitles">Tech Stack</h2>
           <div className="techStackIcons">
-            <div className="techStackContainer"></div>
-            <i className="devicon-html5-plain-wordmark devicon"></i>
-            <i className="devicon-css3-plain-wordmark devicon"></i>
-            <i className="devicon-javascript-plain devicon"></i>
-            <i className="devicon-nodejs-plain-wordmark devicon"></i>
-            <i className="devicon-react-original-wordmark devicon"></i>
-            <i className="devicon-express-original-wordmark devicon"></i>
-            <i className="devicon-ruby-plain-wordmark devicon"></i>
-            <img
-              className="sqlIcon"
-              src="https://www.flaticon.com/svg/static/icons/svg/29/29594.svg"
-            />
-            <i className="devicon-postgresql-plain-wordmark devicon"></i>
+            <h2 className="contentTitles">Tech Stack</h2>
+
+            <div className="techStackContainer">
+              <i className="devicon-html5-plain-wordmark devicon"></i>
+              <i className="devicon-css3-plain-wordmark devicon"></i>
+              <i className="devicon-javascript-plain devicon"></i>
+              <i className="devicon-nodejs-plain-wordmark devicon"></i>
+              <i className="devicon-react-original-wordmark devicon"></i>
+              <i className="devicon-express-original-wordmark devicon"></i>
+              <i className="devicon-ruby-plain-wordmark devicon"></i>
+              <img
+                className="sqlIcon"
+                src="https://www.flaticon.com/svg/static/icons/svg/29/29594.svg"
+              />
+              <i className="devicon-postgresql-plain-wordmark devicon"></i>
+            </div>
           </div>
         </div>
       </div>

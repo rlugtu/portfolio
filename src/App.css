@@ -13,6 +13,10 @@ body {
   background-color: rgba(136, 136, 136, 1);
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
+  background-image: url("https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }
 .App {
   display: flex;
@@ -45,6 +49,7 @@ body {
 .devicon {
   font-size: 6rem;
 }
+
 .sqlIcon {
   height: 90px;
   width: 90px;
@@ -71,23 +76,27 @@ body {
   font-size: 1.4rem;
 }
 
-.aboutContainer {
-  background-color: white;
+.aboutContainer,
+.projectContainer,
+.techStackIcons {
+  margin-top: 50px;
 }
-
+.techStackContainer {
+  margin-top: 30px;
+}
 .contentTitles {
   font-size: 2.5rem;
 }
 
-.projectsContent {
+/* .projectsContent {
   color: white;
-}
+} */
 h2 {
   margin: 0;
 }
 
 .type-animation {
-  animation: typewriter 1.5s steps(20) 1s 1 normal both,
+  animation: typewriter 1.2s steps(20) 1s 1 normal both,
     blinkTextCursor 1000ms steps(20) 5 normal;
 }
 
@@ -123,6 +132,11 @@ h2 {
   .aboutContent,
   .projectsContent {
     font-size: 1rem;
+  }
+  .aboutContainer,
+  .projectContainer,
+  .techStackIcons {
+    margin-top: 20px;
   }
   .devicon {
     font-size: 4rem;
