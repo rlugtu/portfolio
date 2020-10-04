@@ -142,7 +142,7 @@ h2 {
   text-decoration: underline;
 }
 .type-animation {
-  animation: typewriter 1.2s steps(20) 1s 1 normal both,
+  animation: typewriter 1.5s steps(20) 1s 1 normal both,
     blinkTextCursor 1000ms steps(20) 6 normal;
 }
 
