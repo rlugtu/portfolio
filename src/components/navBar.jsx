@@ -20,7 +20,7 @@ const Navbar = (props) => {
           to="projects"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={-30}
           duration={500}
         >
           Projects
@@ -30,7 +30,7 @@ const Navbar = (props) => {
           to="contact"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={-30}
           duration={500}
         >
           Contact
