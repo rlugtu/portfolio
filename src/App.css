@@ -210,6 +210,19 @@ h2 {
 .bio {
   font-size: 1.5rem;
 }
+
+@media (max-width: 768px) {
+  .projectLinks {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: space-evenly;
+  }
+  .projectDescription {
+    font-size: 1.2rem;
+  }
+}
+
 @media (max-width: 600px) {
   .name {
     font-size: 3.5rem;
@@ -252,6 +265,7 @@ h2 {
     display: flex;
     flex-direction: row;
     margin-top: 10px;
+    justify-content: space-evenly;
   }
   .navBarActive ul {
     display: flex;
