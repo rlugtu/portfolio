@@ -211,7 +211,7 @@ h2 {
   font-size: 1.5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .projectLinks {
     display: flex;
     flex-direction: row;
@@ -290,6 +290,9 @@ h2 {
     font-size: 1.2rem;
     cursor: pointer;
     color: white;
+  }
+  .navBarActive > ul > .active {
+    border-bottom: 1px solid white;
   }
   /* .navBarActive > ul > .active {
     border-bottom: 1px solid white;
