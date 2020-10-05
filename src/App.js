@@ -92,6 +92,7 @@ function App() {
               <i className="devicon-react-original-wordmark devicon"></i>
               <i className="devicon-express-original-wordmark devicon"></i>
               <i className="devicon-ruby-plain-wordmark devicon"></i>
+              <i class="devicon-rails-plain-wordmark devicon"></i>
               <img
                 className="sqlIcon"
                 src="https://www.flaticon.com/svg/static/icons/svg/29/29594.svg"
