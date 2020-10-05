@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import Navbar from "./components/navBar";
 import "./App.css";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
@@ -23,10 +24,20 @@ const useStyles = makeStyles((theme) => ({
 
 function App() {
   const classes = useStyles();
+  const [navBar, setNavbar] = useState(false);
+  const changeNavText = () => {
+    if (window.scrollY >= 400) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+  window.addEventListener("scroll", changeNavText);
 
   return (
     <div className="App">
-      <div className="headerContainer">
+      <Navbar setNavbar={setNavbar} navBar={navBar} />
+      <div className="headerContainer" id="contact">
         <div className="headerContent">
           <h1 className="name type-animation">Ryan Lugtu.</h1>
           <h3> Software Engineer</h3>
@@ -58,7 +69,7 @@ function App() {
           </ul>
         </div>
       </div>
-      <div className="aboutContainer">
+      <div className="aboutContainer" id="about">
         <div className="aboutContent">
           <h2 className="contentTitles">About</h2>
           <p>
@@ -90,7 +101,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="projectContainer">
+      <div className="projectContainer" id="projects">
         <div className="projectsContent">
           <h2 className="contentTitles">Projects</h2>
           <div className="welp">

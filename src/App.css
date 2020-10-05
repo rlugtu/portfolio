@@ -23,6 +23,50 @@ body {
   flex-direction: column;
   align-items: center;
 }
+/* NAVBAR  */
+
+.navBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navBar ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0 100px;
+}
+.navBar ul * {
+  margin: 0 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: white;
+}
+.navBar > ul > .active {
+  border-bottom: 1px solid white;
+}
+.navBarActive {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: black;
+}
+.navBarActive ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0 100px;
+  color: black;
+}
+.navBarActive ul * {
+  margin: 0 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: black;
+}
+.navBarActive > ul > .active {
+  border-bottom: 1px solid black;
+}
 /* icons */
 .contactInfo {
   padding: 0;
@@ -208,5 +252,29 @@ h2 {
     display: flex;
     flex-direction: row;
     margin-top: 10px;
+  }
+  .navBarActive ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0 100px;
+  }
+  .navBar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0 100px;
+  }
+  .navBarActive {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .navBarActive ul * {
+    margin: 0 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: white;
+  }
+  .navBarActive > ul > .active {
+    border-bottom: 1px solid white;
   }
 }
