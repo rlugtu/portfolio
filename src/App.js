@@ -8,6 +8,8 @@ import AssignmentIcon from "@material-ui/icons/Assignment";
 import { makeStyles } from "@material-ui/core/styles";
 import Tooltip from "@material-ui/core/Tooltip";
 import Resume from "./assets/resume.pdf";
+import ModalVideo from "react-modal-video";
+import "../node_modules/react-modal-video/scss/modal-video.scss";
 const useStyles = makeStyles((theme) => ({
   contactIcon: {
     fontSize: 80,
@@ -25,6 +27,10 @@ const useStyles = makeStyles((theme) => ({
 function App() {
   const classes = useStyles();
   const [navBar, setNavbar] = useState(false);
+  // VIDEO MODAL
+  const [welpOpen, setWelpOpen] = useState(false);
+  const [fitpalOpen, setFitpalOpen] = useState(false);
+  const [ffOpen, setFFOpen] = useState(false);
   const changeNavText = () => {
     if (window.scrollY >= 400) {
       setNavbar(true);
@@ -106,12 +112,20 @@ function App() {
         <div className="projectsContent">
           <h2 className="contentTitles">Projects</h2>
           <div className="welp">
-            <a href="https://welpme.herokuapp.com" target="_blank">
-              <img
-                className="projectThumbnail"
-                src="https://i.imgur.com/6DF9uRU.png"
-              />
-            </a>
+            {/* <a href="https://welpme.herokuapp.com" target="_blank"> */}
+            <ModalVideo
+              channel="youtube"
+              autoplay
+              isOpen={welpOpen}
+              videoId="gmr16OmVIDw"
+              onClose={() => setWelpOpen(false)}
+            />
+            <img
+              className="projectThumbnail"
+              src="https://i.imgur.com/6DF9uRU.png"
+              onClick={() => setWelpOpen(true)}
+            />
+            {/* </a> */}
 
             <div className="projectDescription">
               <h3>Welp</h3>
@@ -133,12 +147,20 @@ function App() {
             </div>
           </div>
           <div className="fitpal">
-            <a href="https://fitpaltracker.herokuapp.com" target="_blank">
-              <img
-                className="projectThumbnail"
-                src="https://i.imgur.com/X90E6wN.png"
-              />
-            </a>
+            {/* <a href="https://fitpaltracker.herokuapp.com" target="_blank"> */}
+            <ModalVideo
+              channel="youtube"
+              autoplay
+              isOpen={fitpalOpen}
+              videoId="SY93VSlCzHk"
+              onClose={() => setFitpalOpen(false)}
+            />
+            <img
+              className="projectThumbnail"
+              src="https://i.imgur.com/X90E6wN.png"
+              onClick={() => setFitpalOpen(true)}
+            />
+            {/* </a> */}
 
             <div className="projectDescription">
               <h3>FitPal</h3>
@@ -158,15 +180,23 @@ function App() {
             </div>
           </div>
           <div className="finalfantasy">
-            <a
+            {/* <a
               href="https://vigorous-goldstine-7f8852.netlify.app/"
               target="_blank"
-            >
-              <img
-                className="projectThumbnail"
-                src="https://i.imgur.com/8If8U7o.png"
-              />
-            </a>
+            > */}
+            <ModalVideo
+              channel="youtube"
+              autoplay
+              isOpen={ffOpen}
+              videoId="BrnUYWN14ds"
+              onClose={() => setFFOpen(false)}
+            />
+            <img
+              className="projectThumbnail"
+              src="https://i.imgur.com/8If8U7o.png"
+              onClick={() => setFFOpen(true)}
+            />
+            {/* </a> */}
 
             <div className="projectDescription">
               <h3>Final Fantasy Adventure</h3>
