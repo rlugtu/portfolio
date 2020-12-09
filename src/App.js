@@ -110,7 +110,27 @@ function App() {
       </div>
       <div className="projectContainer" id="projects">
         <div className="projectsContent">
-          <h2 className="contentTitles">Projects</h2>
+          <h2 className="contentTitles">My Work</h2>
+          <div className="temima">
+            {/* <a href="https://welpme.herokuapp.com" target="_blank"> */}
+            <img
+              className="projectThumbnail"
+              src="https://i.imgur.com/0LEd5No.png"
+            />
+            {/* </a> */}
+            <div className="projectDescription">
+              <h3>Temima Gezari - Freelance</h3>
+              <p>
+                Sole developer for a client in creating a website dedicated to the artist Temima Gezari. Responsible for full website development and hosting. 
+              </p>
+              <p>Created with React, HTML, CSS</p>
+              <div className="projectLinks">
+                <a href="https://temimagezari.com" target="_blank">
+                  Live Site
+                </a>
+              </div>
+            </div>
+          </div>
           <div className="welp">
             {/* <a href="https://welpme.herokuapp.com" target="_blank"> */}
             <ModalVideo
@@ -128,7 +148,7 @@ function App() {
             {/* </a> */}
 
             <div className="projectDescription">
-              <h3>Welp</h3>
+              <h3>Welp - Personal</h3>
 
               <p>
                 Welp is a business directory app that allows users to find,
@@ -163,7 +183,7 @@ function App() {
             {/* </a> */}
 
             <div className="projectDescription">
-              <h3>FitPal</h3>
+              <h3>FitPal - Personal</h3>
               <p>
                 Fitpal is a fitness planning app that allows users to plan and
                 schedule workouts.
@@ -199,7 +219,7 @@ function App() {
             {/* </a> */}
 
             <div className="projectDescription">
-              <h3>Final Fantasy Adventure</h3>
+              <h3>Final Fantasy Adventure - Personal</h3>
 
               <p>
                 Final Fantasy Adventure is a turn based adventure RPG that

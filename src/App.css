@@ -143,7 +143,8 @@ h2 {
 
 .welp,
 .fitpal,
-.finalfantasy {
+.finalfantasy,
+.temima {
   display: flex;
 }
 
@@ -251,13 +252,15 @@ h2 {
 
   .welp,
   .fitpal,
-  .finalfantasy {
+  .finalfantasy,
+  .temima {
     display: flex;
     flex-wrap: wrap;
   }
   .welp img,
   .fitpal img,
-  .finalfantasy img {
+  .finalfantasy img,
+  .temima img {
     margin-left: auto;
     margin-right: auto;
   }
