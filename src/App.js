@@ -115,6 +115,28 @@ function App() {
             {/* <a href="https://welpme.herokuapp.com" target="_blank"> */}
             <img
               className="projectThumbnail"
+              src={require("../src/assets/images/infinitetennis.jpg")}
+            />
+            {/* </a> */}
+            <div className="projectDescription">
+              <h3>Infinite Future Tennis Academy</h3>
+              <p>
+              Business website for local tennis academy containing information about training programs
+              </p>
+              <p>Full website creation using NextJS, HTML, CSS and deployed with Vercel              
+              </p>
+              <p>Created with NextJS, HTML, CSS</p>
+              <div className="projectLinks">
+                <a href="https://infinitefuturetennis.com" target="_blank">
+                  Live Site
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="temima">
+            {/* <a href="https://welpme.herokuapp.com" target="_blank"> */}
+            <img
+              className="projectThumbnail"
               src="https://i.imgur.com/0LEd5No.png"
             />
             {/* </a> */}
