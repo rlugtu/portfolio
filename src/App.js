@@ -134,26 +134,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="temima">
-            {/* <a href="https://welpme.herokuapp.com" target="_blank"> */}
-            <img
-              className="projectThumbnail"
-              src="https://i.imgur.com/0LEd5No.png"
-            />
-            {/* </a> */}
-            <div className="projectDescription">
-              <h3>Temima Gezari - Freelance</h3>
-              <p>
-                Sole developer for a client in creating a website dedicated to the artist Temima Gezari. Responsible for full website development and hosting. 
-              </p>
-              <p>Created with React, HTML, CSS</p>
-              <div className="projectLinks">
-                <a href="https://temimagezari.com" target="_blank">
-                  Live Site
-                </a>
-              </div>
-            </div>
-          </div>
+         
           <div className="welp">
             {/* <a href="https://welpme.herokuapp.com" target="_blank"> */}
             <ModalVideo
@@ -185,6 +166,26 @@ function App() {
                 </a>
                 <a href="https://github.com/rlugtu/welp" target="_blank">
                   GitHub source
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="temima">
+            {/* <a href="https://welpme.herokuapp.com" target="_blank"> */}
+            <img
+              className="projectThumbnail"
+              src="https://i.imgur.com/0LEd5No.png"
+            />
+            {/* </a> */}
+            <div className="projectDescription">
+              <h3>Temima Gezari </h3>
+              <p>
+                Sole developer for a client in creating a website dedicated to the artist Temima Gezari. Responsible for full website development and hosting. 
+              </p>
+              <p>Created with React, HTML, CSS</p>
+              <div className="projectLinks">
+                <a href="https://temimagezari.com" target="_blank">
+                  Live Site
                 </a>
               </div>
             </div>
