@@ -136,6 +136,14 @@ body {
 h2 {
   margin: 0;
 }
+.nextjsicon {
+  background: url("https://api.iconify.design/logos-nextjs.svg") no-repeat
+    center center / contain;
+  height: 100px;
+  width: 100px;
+  font-size: 4rem;
+  margin: 0 10px;
+}
 
 /* .projectsContent {
   color: white;
