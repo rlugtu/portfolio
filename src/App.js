@@ -79,13 +79,7 @@ function App() {
         <div className="aboutContent">
           <h2 className="contentTitles">About</h2>
           <p>
-            Hello! I'm Ryan, a software engineer and full-stack developer. With
-            a passion for creation and a fascination for coding, I joined
-            General Assembly's Software Engineering Immersive Program. Following
-            the completion of over 500 hours of learning full-stack development,
-            I could not feel more fulfilled. I have a thirst for knowledge and
-            I'm driven to improve at what I do. When I'm not at my computer, you
-            can find me working out, working on my car, or playing tennis.
+            Hello! I'm Ryan, a software engineer and full-stack developer. Having developed a fascination for coding, I enrolled in General Assembly's software engineering program. Following the completion of over 500 hours of applied learning, I could not feel more fulfilled. I have a thirst for knowledge and I'm constantly striving to improve at what I do. When I'm not coding, you can find me working out, working on my car, or playing tennis.
           </p>
           <div className="techStackIcons">
             <h2 className="contentTitles">Tech Stack</h2>
