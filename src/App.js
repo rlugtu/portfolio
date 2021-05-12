@@ -92,8 +92,11 @@ function App() {
               <div className="nextjsicon"></div>
               <i className="devicon-nodejs-plain-wordmark devicon"></i>
               <i className="devicon-express-original-wordmark devicon"></i>
+              <i className="devicon-mongodb-plain-wordmark colored devicon"></i>
               <i className="devicon-ruby-plain-wordmark devicon"></i>
               <i className="devicon-rails-plain-wordmark devicon"></i>
+              <i class="devicon-sequelize-plain-wordmark colored devicon"></i>
+
               <img
                 className="sqlIcon"
                 src="https://www.flaticon.com/svg/static/icons/svg/29/29594.svg"
@@ -110,7 +113,7 @@ function App() {
             {/* <a href="https://welpme.herokuapp.com" target="_blank"> */}
             <img
               className="projectThumbnail"
-              src={require("../src/assets/images/infinitetennis.jpg")}
+              src={require("../src/assets/images/infinitetennis.jpg").default}
             />
             {/* </a> */}
             <div className="projectDescription">
