@@ -48,6 +48,7 @@ function App() {
           <h1 className="name type-animation">Ryan Lugtu.</h1>
           <h3> Software Engineer</h3>
           <h3>Fullstack Developer</h3>
+          <h3 className="contactHeader">Contact Me</h3>
           <ul className="contactInfo">
             <Tooltip title="LinkedIn" hover="pointer">
               <a href="https://www.linkedin.com/in/ryan-lugtu/" target="_blank">
@@ -96,7 +97,6 @@ function App() {
               <i className="devicon-ruby-plain-wordmark devicon"></i>
               <i className="devicon-rails-plain-wordmark devicon"></i>
               <i class="devicon-sequelize-plain-wordmark colored devicon"></i>
-
               <img
                 className="sqlIcon"
                 src="https://www.flaticon.com/svg/static/icons/svg/29/29594.svg"

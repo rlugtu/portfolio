@@ -71,6 +71,10 @@ body {
 /* icons */
 .contactInfo {
   padding: 0;
+  margin-top: 5px;
+}
+.contactHeader {
+  margin-top: 20px !important;
 }
 /* Header Font */
 .name {
